@@ -1,0 +1,41 @@
+bootstrap js and create notes
+day1 monday 17-03-2025
+
+step to create new git report:
+1. login to github account
+2. on top rigth of the window click on + and select new repository
+3. give the repository name
+4. give the discription for the repository
+5. repository should be in public
+6. select add new readme file
+7. click create new repository
+
+GIT COMMANDS:
+1. git status
+$ git status
+the above command is used to now the status of the repo we ae working in
+ 
+$ git clone https://github.com/shribhat23/pfile_fe_mar25 
+this command copies the repo from the server(remote repo) into our computer
+ 
+$ git pull origin main
+this command download the updated repo from server.main here is the default branch name
+
+$ git config --global user.name "shribhat23"
+$ git config --global user.email "pranavbhat232002@gmail.com"
+
+STEPS TO CREATE PERSONAL ACCESS TOKEN(PAT):
+1. at top rigth corner click on profile
+2. click on settings
+3. in the new window scrool down and click developers settings(bottom left)
+4. in new window top left click tokens and then select tokens classic
+5. in new window click new tokens and select generate new tokens classic
+6.write note:
+this pad i have created for my learning purpose
+7. click expiry and select no expiration
+8. select the check bok repo
+9. scroll down and click generate tokens
+10. copy the pat and mail it to yorself(use the mail subject git pat) 
+
+STEPS TO SYNK REMOTE REPO WITH THE LOCAL :
+$ git clone https://<PAT>github.com/shribhat23/pfile_fe_mar25
